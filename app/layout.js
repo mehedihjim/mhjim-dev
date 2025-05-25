@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Image } from "next/image";
 import Navbar from "@/components/Navbar";
+import LGDeviveLogo from "@/components/LGDeviveLogo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <h1 className="pt-8 font-medium text-[32px] text-center">MH Jim©</h1>
+        <LGDeviveLogo />
         <Navbar />
         {children}
       </body>
