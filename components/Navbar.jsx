@@ -45,9 +45,6 @@ const Navbar = () => {
                   : "text-white hover:bg-white/10"
               }`}
             >
-              <span className="px-2 py-0.5 -top-1 bg-gray-500 text-white text-xs rounded-full mr-1">
-                2
-              </span>
               Projects
             </Link>
           </li>
