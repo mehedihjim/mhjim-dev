@@ -19,7 +19,7 @@ const demoProjects = [
 
 const Projects = () => {
   return (
-    <div>
+    <section>
       <div className="container mx-auto px-4 md:px-0 pb-12 md:pb-16 lg:pb-[75px]">
         <div className="flex justify-between flex-col md:flex-row gap-4 md:gap-0">
           <div>
@@ -34,7 +34,7 @@ const Projects = () => {
           </div>
           <Link
             href="/projects"
-            className="flex gap-1 items-end justify-end text-xl font-medium leading-[120%] tracking-[-1%] hover:border-b border-black dark:border-white transition-all duration-100"
+            className="flex gap-1 items-end justify-end text-xl font-medium leading-[120%] tracking-[-1%] hover:border-b border-black dark:border-white transition-all duration-100 w-fit"
           >
             More <FaArrowRightLong />
           </Link>
@@ -52,7 +52,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

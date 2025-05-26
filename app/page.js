@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Banner from "@/components/Banner";
 import Expertise from "@/components/Expertise";
 import Projects from "@/components/Projects";
@@ -11,6 +12,7 @@ const page = () => {
       <TextSlider />
       <Expertise />
       <Projects />
+      <AboutMe />
     </div>
   );
 };
