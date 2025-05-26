@@ -42,9 +42,9 @@ const AboutMe = () => {
                   className="group relative flex gap-1.5 px-8 py-4 bg-white bg-opacity-80 text-black rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md"
                 >
                   <FaInfoCircle className="my-auto" />
-                  Learn More About Me
-                  <div className="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg whitespace-nowrap">
-                    Checkout
+                  Learn More
+                  <div className="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-white bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg whitespace-nowrap">
+                    Know More
                   </div>
                 </Link>
               </div>
