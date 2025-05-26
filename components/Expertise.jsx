@@ -2,7 +2,7 @@
 
 const Expertise = () => {
   return (
-    <div>
+    <div className="mt-[60px] md:mt-[100px] lg:mt-[140px]">
       <div className="container mx-auto px-4 md:px-0 pb-12 md:pb-16 lg:pb-[75px]">
         <h2 className="text-5xl font-medium leading-[120%] tracking-[-1%] pb-[14px] md:pb-[20px] lg:pb-[45px]">
           Skills & Expertise~

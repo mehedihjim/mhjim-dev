@@ -10,9 +10,9 @@ const page = () => {
     <div className="">
       <Banner />
       <TextSlider />
+      <AboutMe />
       <Expertise />
       <Projects />
-      <AboutMe />
     </div>
   );
 };
