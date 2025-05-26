@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import LGDeviveLogo from "@/components/LGDeviveLogo";
+import LGDeviveLogo from "@/components/ui/LGDeviveLogo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

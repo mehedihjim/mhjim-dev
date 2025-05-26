@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import CVButton from "./CVButton";
+import CVButton from "./ui/CVButton";
 
 const Banner = () => {
   return (

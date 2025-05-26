@@ -4,7 +4,7 @@ import React from "react";
 
 const TextSlider = () => {
   return (
-    <div className="overflow-hidden py-[21px] md:py-12 bg-black">
+    <div className="overflow-hidden py-[21px] md:py-12 bg-black mb-[60px] md:mb-[100px] lg:mb-[140px]">
       <div className="flex animate-slide whitespace-nowrap text-white leading-[110%] tracking-[-0.02em] text-[40px] sm:text-[60px] md:text-[100px] lg:text-[140px]">
         <span className="px-4 sm:px-6 md:px-8">
           Think like a hacker, build like a dev. Think like a hacker, build like
