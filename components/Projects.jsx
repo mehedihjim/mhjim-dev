@@ -10,10 +10,10 @@ const demoProjects = [
     href: "/projects/saadhu",
   },
   {
-    title: "Saadhu",
+    title: "Luxe",
     category: "E-Commerce",
-    imageSrc: "/Saadhu-phone.png",
-    href: "/projects/saadhu",
+    imageSrc: "/luxe-mobile.png",
+    href: "/projects/luxe",
   },
 ];
 
